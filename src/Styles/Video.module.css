@@ -1,0 +1,23 @@
+.video {
+    max-width: 400px;
+    height: fit-content;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+
+.title {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
